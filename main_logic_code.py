@@ -151,7 +151,7 @@ def neighborhood_new_post(browser, new_cmt_list):
                         time.sleep(1)
 
                         commit_btn = find_css('div.u_cbox_upload > button.u_cbox_btn_upload', browser)
-                        # commit_btn.click()
+                        commit_btn.click()
 
                         new_cmt_write_urls.append(browser.current_url)
                         time.sleep(3)
@@ -172,7 +172,7 @@ def neighborhood_new_post(browser, new_cmt_list):
                     time.sleep(1)
 
                     commit_btn = find_css('div.u_cbox_upload > button.u_cbox_btn_upload', browser)
-                    # commit_btn.click()
+                    commit_btn.click()
 
                     new_cmt_write_urls.append(browser.current_url)
                     time.sleep(3)
